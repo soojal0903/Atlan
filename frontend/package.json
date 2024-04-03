@@ -5,13 +5,13 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
-    "@material-ui/lab": "^4.0.0", // Changed to stable version
+    "@material-ui/lab": "^4.0.0",
     "@mui/material": "^5.15.14",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "audit": "^0.0.6",
-    "axios": "^0.24.0", // Specified version
+    "axios": "^0.24.0",
     "fix": "^0.0.6",
     "npm": "^10.5.0",
     "overlay-navbar": "^1.2.3",
