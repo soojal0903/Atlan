@@ -57,5 +57,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://192.168.137.1:4500"
+  "proxy": "https://atlan-lt5l.onrender.com"
 }
