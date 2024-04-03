@@ -1,5 +1,4 @@
 const app = require("./app")
-const cors = require('cors')
 
 const dotenv = require("dotenv");
 const connectDatabase  = require("./config/database")
@@ -15,14 +14,6 @@ process.on("uncaughtException",(err)=>{
 //Config
 
 dotenv.config({path:"config/config.env"});
-
-app.use(cors(
-    {
-        origin:["https://deploy-mern-1whq.vercel.app"],
-        methods:["POST","GET"],
-        credentials:true
-    }
-));
 
 //Connecting to Database
 connectDatabase()

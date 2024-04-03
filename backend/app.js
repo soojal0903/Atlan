@@ -10,11 +10,6 @@ const product = require("./routes/productRoute");
 
 app.use("/api/v1",product);
 
-// app.use(express.static(path.join(__dirname, "../frontend/build")));
-// app.get("*", (req, res) => {
-//   res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
-// });
-
 //middle ware for error
 app.use(errorMiddleware);
 
